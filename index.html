@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Basic Calculator Design</title>
+  </head>
+  <body>
+    <div class="calculator-wrapper">
+      <div class="toggler">
+        <h2>Calc</h2>
+        <div class="toggle">
+          <p>Theme</p>
+          <div class="toggle-btn">
+            <div class="radio"></div>
+            <div class="toggle-text">
+              <small>1</small>
+              <small>2</small>
+              <small>3</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="display">
+        <div class="prev-display" data-prev-operand></div>
+        <div class="current-display" data-current-operand></div>
+      </div>
+      <div class="digits">
+        <button class="digit" data-number>7</button>
+        <button class="digit" data-number>8</button>
+        <button class="digit" data-number>9</button>
+        <button class="digit" data-delete>Del</button>
+        <button class="digit" data-number>4</button>
+        <button class="digit" data-number>5</button>
+        <button class="digit" data-number>6</button>
+        <button class="digit operator" data-operation>+</button>
+        <button class="digit num" data-number>1</button>
+        <button class="digit num" data-number>2</button>
+        <button class="digit num" data-number>3</button>
+        <button class="digit operator" data-operation>-</button>
+        <button class="digit num" data-number>.</button>
+        <button class="digit num" data-number>0</button>
+        <button class="digit operator" data-operation>÷</button>
+        <button class="digit operator" data-operation>*</button>
+        <button class="digit reset" data-reset>Reset</button>
+        <button class="digit equals" data-calculation>=</button>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
