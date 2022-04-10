@@ -158,3 +158,9 @@ body {
   background: crimson;
   grid-column: 3 / 5;
 }
+
+@media (max-width: 768px){
+  .calculator-wrapper{
+    margin: 50px 10px;
+  }
+}
